@@ -1,0 +1,40 @@
+.calculator-container{
+    background-color: gray;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border:double black 2px ;
+
+    padding:10px;
+    width:245px;
+    gap: 5px;
+}
+.title{
+    display:flex;
+    justify-content: center;
+    font-size: x-large;
+}
+table{
+    
+    width:260px;
+}
+.equal{
+    background-color:blue;
+    color:black;
+    border: solid black 2px;
+    width:85%;
+}
+.normal-button
+{
+    background-color:black;
+    color:white;
+    border: solid white 2px;
+    width:40px;
+}
+input[type="text"]
+ {
+    background-color:white;
+    border: solid black 2px;
+    height:25px;
+    width:225px;
+ }
